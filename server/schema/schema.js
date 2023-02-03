@@ -161,13 +161,13 @@ const mutation = new GraphQLObjectType({
                     args.id,
                     {
                         $set: {
-                        name: args.name,
-                        description: args.description,
-                        status: args.status,
+                            name: args.name,
+                            description: args.description,
+                            status: args.status,
                         },
                     },
                     { new: true }
-                    );
+                );
             },
         }
     }
