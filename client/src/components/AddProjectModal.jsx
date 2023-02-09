@@ -89,8 +89,8 @@ export default function AddProjectModal() {
                                                 value={status}
                                                 onChange={ (e) => setStatus(e.target.value) }>
                                                     <option value="new">Not Started</option>
-                                                    <option value="new">In Progress</option>
-                                                    <option value="new">Completed</option>
+                                                    <option value="progress">In Progress</option>
+                                                    <option value="completed">Completed</option>
                                             </select>
                                         </div>
                                         <div className="mb-3">
