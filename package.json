@@ -1,7 +1,7 @@
 {
     "name": "project-management-app",
     "version": "1.0.0",
-    "description": "",
+    "description": "https://youtu.be/BcLNfwF04Kw",
     "main": "index.js",
     "scripts": {
         "start": "node server/index.js",
